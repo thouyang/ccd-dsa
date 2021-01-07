@@ -1,13 +1,6 @@
 # Corner Case Description and Detection 
 
-If you find this code helpful, please consider to cite our paper "Corner case description and detection" ["paper"](https://arxiv.org)
-
-```
-{
-	Author = {Tinghui Ouyang}
-        Affiliation={Arificial Intelligent Research Center, AIST}
-}  
-```
+If you find this code helpful, please consider to cite our paper "Corner case description and detection" 
 
 ## Introduction
 
