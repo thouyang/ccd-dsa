@@ -1,10 +1,10 @@
 # Corner Case Description and Detection 
 
-If you find this code helpful, please consider to cite our paper "Corner case description and detection" 
+If you find this code helpful, please consider to cite our paper "Corner case description and detection" [paper](https://arxiv.org/abs/2101.02494)
 
 ## Introduction
 
-In reference [[Ref]](https://arxiv.org/abs/1808.08444), an idea of using surprise adequacy to describe data's behaviors was proposed. The surprise adequacy is based on the activation trace of a specific hidden layer in DNN models, 
+In reference [[ref]](https://arxiv.org/abs/1808.08444), an idea of using surprise adequacy to describe data's behaviors was proposed. The surprise adequacy is based on the activation trace of a specific hidden layer in DNN models, 
 and able to capture data's distribution characteristics. Based on this idea, we modify definition of the proposed distance-based surprise adequacy (DSA) with respect to corner cases in AI quality assurance.
 And utilize these modified DSAs in description and detection of corner case data. This archive includes code for computing DSA values and evaluating performance on using dsa for corner case data detection, 
 which are basic components of the main experiments in the paper. Currently, the "run.py" script can realize corner case detection with four DSAs on the MNIST dataset, only considering the last hidden layer (activation_3). Layer selection can be easily changed by modifying `layer_names` in run.py.
@@ -64,5 +64,6 @@ python run.py -dsa dsa0
 - For speed-up, use GPU-based tensorflow.
   
 ## References
+["Corner case description and detection"](https://arxiv.org/abs/2101.02494)
 
 ["The original definition of distance-based surprise adequacy "](https://arxiv.org/abs/1808.08444)
