@@ -1,6 +1,6 @@
 # Corner Case Description and Detection 
 
-If you find this code helpful, please consider to cite our paper "Corner case description and detection" [paper](https://arxiv.org/abs/2101.02494)
+If you find this code helpful, please consider to cite our paper "Corner case description and detection" [here](https://arxiv.org/abs/2101.02494)
 
 ## Introduction
 
